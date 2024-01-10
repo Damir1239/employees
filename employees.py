@@ -36,7 +36,7 @@ class EmployeeApplication:
 if __name__ == "__main__":
     app = EmployeeApplication()
     app.add_employee("Иванов Иван", "1234567890", "ivanov@example.com", 50000)
-    app.update_employee(1, "Петров Пётр", "9876543210", "petrov@example.com", 60000)
+    app.update_employee(1, "Петров Пётр", "9876543210", "petrov@example.com", 600000)
     app.delete_employee(1)
     search_result = app.search_employee("Петров Пётр")
     print(search_result)
